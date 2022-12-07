@@ -3,7 +3,11 @@
 #include <iostream>
 using namespace std;
 
+int Suma(int a, int b) {
+    return a + b;
+}
+
 int main()
 {
-    cout << "Hello World!\n";
+    cout << Suma(3, 5);
 }
