@@ -1,6 +1,6 @@
 
-
 #include <iostream>
+#include <cassert>
 using namespace std;
 
 int Suma(int a, int b) {
@@ -9,5 +9,5 @@ int Suma(int a, int b) {
 
 int main()
 {
-    cout << Suma(3, 5);
+    assert(Suma(3, 5) == 8);
 }
